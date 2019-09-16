@@ -30,6 +30,9 @@ It is a way of using IT to use the 5 different services.
 * Cloud Functions Serverless Logics
 * Managed Servers Automated Elastic Resources.
 * SAAS Search Gmail Youtube Comes in SAAS.
+
+<img src="img\GCP_Compute_Architecture.jpg">
+
 ## GCP Zones
 * When we build an application of GCP we select a zone on which the application will run, the GCP uses the nearest possible zone to reduce the latency of the instances.
 * Zones are of 4 types
