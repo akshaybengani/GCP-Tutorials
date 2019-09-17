@@ -42,6 +42,9 @@ It is a way of using IT to use the 5 different services.
     * Specific Area | Locality | State
 *   To create a fault tolenrence application we can use different zones.
 * Googles all data centers use totally 100% green energy.
+
+<img src="img/GCP_Network.jpg">
+
 ## GCP Pricing
 * Billing in subhour increments
     *   For Virtual Machines containers in the cloud data processing and other services too.
@@ -49,13 +52,38 @@ It is a way of using IT to use the 5 different services.
     * Automatically applied to virtual machines use over 25% of month.
 * Custom VM instance Types
     *   Pay only for the resources you need for your application.
-### Cloud Bigtable
-* It uses the interface of the open source database Apache HBase which gives customers for benifit of code portability.
-### Cloud DataProcessing
-* It offeres the open source big data enviorment hadoop as managed service.
-### Kubernates
-* It gives customers the ability to mix and match micro services running accross different clouds
-### Google StackDriver
-* It lets customers monitor workloads accross multiple cloud provider.
 
+## Open API
+* Cloud Bigtable uses the interface of the open source database Apache HBase which gives customers for benifit of code portability.
+* Cloud DataProc offers the open source big data enviorment hadoop as managed service.
+* Kubernates gives customers the ability to mix and match micro services running accross different clouds
+* Google StackDriver lets customers monitor workloads accross multiple cloud provider.
 
+<img src="img/GCP_OpenAPI.jpg">
+
+## GCP Services
+* Compute
+* Storage
+* Big Data
+* Machine Learning
+
+<img src="img/GCP_Services.jpg">
+
+## Multilayered Security Approach
+*   Both the server boards and networking boards are designed by google.
+* Google also designed its own custom security chips called titan which is currently deployed to both servers and peripherals.
+* Google Infrastructure provides cryptograpic privacy and integrity for remote procedures and access to thier network.
+
+<img src="img/GCP_Security.jpg">
+
+## Budgets and Bills
+*   We can setup a billing account specifically for a project or such.
+*   Billing alerts can be set for notifications on Dashboard regarding the remaining budget of your project.
+<img src="img/GCP_BudgetsAndAlerts.jpg">
+
+* For getting more detailed billing information of every change with description comes under this section.
+<img src="img/GCP_BillingExportBigQuerry.jpg">
+
+*   Reports of each and every servies are recorded and we don noy ise co
+
+<img src="img/GCP_BillingReports.jpg">
