@@ -114,7 +114,6 @@ It is a way of using IT to use the 5 different services.
 * The upper layers of the security stack remain the customers' responsibility. Google provides tools such as IAM to help customers implement the policies they choose at these layers.
 
 ## GCP Resource Hierarchy
-* 
 
 <img src="img/GCP_Resouce_Hierarchy_Levels.jpg">
 
@@ -136,10 +135,14 @@ It is a way of using IT to use the 5 different services.
 * You can organize projects into folders, although you don't have to. They're a tool at your disposal to make your life easier. 
 * For example, you can use folders to represent different departments, teams, applications or environments in your organization. 
 
+## Project Folders
+
 <img src="img/GCP_Project_Folders.jpg">
 
 * Folders let teams have the ability to delegate administrative rights, so they can work independently. 
 * The resources in a folder inherit IAM policies from the folder. So, if project three and four are administered by the same team by design, you can put IAM policies into folder B instead. Doing it the other way, putting duplicate copies of those policies on project three and project four would be tedious and error prone. 
+
+## Organization Node
 
 <img src="img/GCP_Organization_Node.jpg">
 
@@ -148,6 +151,8 @@ It is a way of using IT to use the 5 different services.
 * There are some special roles associated with it. For example, you can designate an organization policy administrator so that only people with privilege can change policies. 
 * You can also assign a project creator role, which is a great way to control who can spend money. So how do you get an organization node? In part the answer depends on whether your company is also a G Suite customer. 
 * If you have a G Suite domain, GCP projects will automatically belong to your organization node. Otherwise, you can use Google Cloud Identity to create one. 
+
+## IAM Resource Heirarchy
 
 <img src="img/GCPP_IAM_Resource_Heirarchy.jpg">
 
