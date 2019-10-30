@@ -126,18 +126,3 @@
 * Customers who want the highest uptimes for their interconnection with Google should use Dedicated Interconnect, in which customers get one or more direct private connections to Google. 
 * If these connections have topologies that meet Google's specifications, they can be covered by up to a 99.99 percent SLA. 
 * These connections can be backed up by a VPN for even greater reliability.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
